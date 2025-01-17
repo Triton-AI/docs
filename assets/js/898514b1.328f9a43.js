@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkappcircle_docusaurus=self.webpackChunkappcircle_docusaurus||[]).push([[67],{9187:e=>{e.exports=JSON.parse('{"tags":[{"label":"release notes","permalink":"/docs/tags/release-notes","description":"Description for release notes","count":1}]}')}}]);
