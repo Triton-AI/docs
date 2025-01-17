@@ -538,10 +538,10 @@ browserstack:
   description: "Description for brute-force"
   permalink: /brute-force
 
-build:
-  label: "build"
+robotx:
+  label: "robotx"
   description: "Description for build"
-  permalink: /build
+  permalink: /robotx
 
 "build artifacts":
   label: "build artifacts"

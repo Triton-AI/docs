@@ -1,4 +1,5 @@
-cription: Appcircle release notes
-tags: [release notes]
-sidebar_position: 3
+---
+title: Latest Release Notes
+description: Appcircle release notes
+sidebar_position: 2
 ---

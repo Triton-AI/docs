@@ -10,16 +10,16 @@
 @import url('https://use.typekit.net/ogf0xwd.css');
 
 :root {
-  --ifm-color-primary: #13EBD3;
-  --ifm-color-primary-dark: #11D4BE;
-  --ifm-color-primary-darker: #0FBDAA;
-  --ifm-color-primary-darkest: #0DA695;
+  --ifm-color-primary: #3B82F6;
+  --ifm-color-primary-dark: #3B82F6;
+  --ifm-color-primary-darker: #3B82F6;
+  --ifm-color-primary-darkest: #3B82F6;
   --ifm-color-primary-light: #2CECD7;
-  --ifm-color-primary-lighter: #45EDDC;
-  --ifm-color-primary-lightest: #5EEFE0;
+  --ifm-color-primary-lighter: #3B82F6;
+  --ifm-color-primary-lightest: #3B82F6;
   --ifm-code-font-size: 95%;
-  --ifm-navbar-background-color: #13233D;
-  --ifm-footer-background-color: #152441;
+  --ifm-navbar-background-color: #3B82F6;
+  --ifm-footer-background-color: #3B82F6;
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif,
     BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
@@ -33,13 +33,13 @@
   --ifm-font-size-base: 100%;
   --ifm-menu-link-padding-horizontal: 1rem;
   --ifm-menu-link-padding-vertical: 0.5rem;
-  --ifm-heading-color: #13EBD3;
+  --ifm-heading-color: #3B82F6;
  
 }
 
 
 html[data-theme='dark'] {
-  --ifm-heading-color: #47B2FF;
+  --ifm-heading-color: #3B82F6;
 }
 
 h1,
@@ -200,7 +200,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 html[data-theme="dark"] .content-ref-card {
-  background-color: #2b2b2b;
+  background-color: #3B82F6;
   border: 1px solid #555555;
   color: var(--ifm-color-primary-lightest);
 }
@@ -586,7 +586,7 @@ html[data-theme='dark'] .rlc-description {
   padding: 4rem 114px 4.5rem 4rem;
   margin: 0;
   width: 100%;
-  background-color: #EEF3FA;
+  background-color: #3B82F6;
   display: flex;
   justify-content: stretch;
   align-items: center;
@@ -626,7 +626,7 @@ html[data-theme='dark'] .rlc-description {
     padding: 2rem 2rem 2.25rem 2rem;
     margin: 0;
     width: 100%;
-    background-color: #EEF3FA;
+    background-color: #3B82F6;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -957,25 +957,25 @@ button[class*='toggleButton']:hover svg[class*='lightToggleIcon'] path {
   width: 16px;
   height: 16px;
   margin-right: 8px; /* adjust this value to control the padding between the image and the link */
-  filter: brightness(0) saturate(100%) invert(83%) sepia(56%) saturate(1200%) hue-rotate(140deg) brightness(97%) contrast(95%);
+  filter: brightness(0) saturate(100%) invert(50%) sepia(60%) saturate(800%) hue-rotate(160deg) brightness(90%) contrast(110%);
 
 }
 
 
-.section-title.tutorial > div >a::before {
-  background-image: url(../../static/img/sidebar/tutorial.svg);
+.section-title.f1tenth > div >a::before {
+  background-image: url(../../static/img/sidebar/f1tenth.svg);
 }
 
-.section-title.account > div >a::before {
-  background-image: url(../../static/img/sidebar/account.svg);
+.section-title.gokart > div >a::before {
+  background-image: url(../../static/img/sidebar/gokart.svg);
 }
 
-.section-title.api > div >a::before {
-  background-image: url(../../static/img/sidebar/api.svg);
+.section-title.robotx > div >a::before {
+  background-image: url(../../static/img/sidebar/robotx.svg);
 }
 
-.section-title.build > div >a::before {
-  background-image: url(../../static/img/sidebar/build.svg);
+.section-title.robosub > div >a::before {
+  background-image: url(../../static/img/sidebar/robosub.svg);
 }
 
 .section-title.workflows > div >a::before {
