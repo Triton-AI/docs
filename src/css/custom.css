@@ -951,8 +951,8 @@ button[class*='toggleButton']:hover svg[class*='lightToggleIcon'] path {
   background-image: url(../../static/img/sidebar/robosub.svg);
 }
 
-.section-title.workflows > div >a::before {
-  background-image: url(../../static/img/sidebar/workflows.svg);
+.section-title.getting-started > div >a::before {
+  background-image: url(../../static/img/sidebar/build.svg);
 }
 
 .section-title.integrations > div >a::before {
