@@ -30,9 +30,6 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           remarkPlugins: [remarkExternalUrlRef],
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/appcircleio/appcircle-docusaurus/tree/master/",
           routeBasePath: "/",
         },
         blog: false,
