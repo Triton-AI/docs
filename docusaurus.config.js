@@ -58,7 +58,7 @@ const config = {
             className: " navbar__logo navbar__item_logo_container",
             value: `
             <a href="/docs" target="_blank">
-              <img src="img/tritonai_favicon.ico" alt="TritonAI" width="100%" height="100%">
+              <img src="https://triton-ai.github.io/docs/img/tritonai_favicon.ico" alt="TritonAI" width="100%" height="100%">
             </a>
             <svg width="2" height="60%" viewBox="0 0 2 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M0 33V0H2V33H0Z" fill="white"/>
