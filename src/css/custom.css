@@ -955,12 +955,18 @@ button[class*='toggleButton']:hover svg[class*='lightToggleIcon'] path {
   background-image: url(../../static/img/sidebar/build.svg);
 }
 
-.section-title.continuous-testing > div >a::before {
-  background-image: url(../../static/img/sidebar/continuous-testing.svg);
+.section-title.contributing > div >a::before {
+  background-image: url(../../static/img/sidebar/self-hosted.svg);
 }
 
-.section-title.environment-variables > div >a::before {
+/*
+.section-title.contributing1 > div >a::before {
   background-image: url(../../static/img/sidebar/environment-variables.svg);
+}
+
+
+.section-title.faq > div >a::before {
+  background-image: url(../../static/img/sidebar/faq.svg);
 }
 
 .section-title.versioning > div >a::before {
@@ -999,14 +1005,14 @@ button[class*='toggleButton']:hover svg[class*='lightToggleIcon'] path {
   background-image: url(../../static/img/sidebar/faq.svg);
 }
 
-.section-title.updates > div >a::before {
+.section-title.contributin1g > div >a::before {
   background-image: url(../../static/img/sidebar/updates.svg);
 }
 
-.section-title.best-practices > div >a::before {
+.section-title.contributing > div >a::before {
   background-image: url(../../static/img/sidebar/best-practices.svg);
 }
-
+*/
 .hidden {
   display: none !important;
 }
