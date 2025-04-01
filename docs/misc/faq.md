@@ -1,5 +1,6 @@
 ---
 title: Frequently Asked Questions
 description: Most Commonly Asked Questions
-sidebar_position: 3
+sidebar_position: 2
 ---
+
