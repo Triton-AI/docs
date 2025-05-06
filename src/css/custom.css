@@ -756,6 +756,7 @@ section.navigation-cards {
 }
 
 section.navigation-cards a {
+  text-align: center;
   border-radius: 7px;
   display: block;
   color: var(--ifm-heading-color);

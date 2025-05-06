@@ -57,7 +57,7 @@ const config = {
             position: "left",
             className: " navbar__logo navbar__item_logo_container",
             value: `
-            <a href="/docs" target="_blank">
+            <a href="/docs">
               <img src="https://triton-ai.github.io/docs/img/tritonai_favicon.ico" alt="TritonAI" width="100%" height="100%">
             </a>
             <svg width="2" height="60%" viewBox="0 0 2 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,11 +69,6 @@ const config = {
             href: "/docs",
             position: "left",
             label: "Triton AI",
-          },
-          {
-            href: "https://discord.gg/ZzfBGvG3FF ",
-            label: "Discord",
-            position: "right",
           },
         ],
       },
