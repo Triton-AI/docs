@@ -4,17 +4,37 @@ description: Documentation for installating necessary dependencies and environme
 sidebar_position: 1
 ---
 
+import Tower from "@site/static/img/projects/gokart/tower_egg.jpg"
+import Dome from "@site/static/img/projects/gokart/dome.jpg"
+import WiredNVIDIA from "@site/static/img/projects/gokart/WiredNVIDIA.jpg"
+import ImageGallery from "@site/src/components/ImageGallery"
+import ImageCard from "@site/src/components/ImageCard"
+
 # Installation & Environment Setup
 
 This documentation outlines the necessary installation and environmental setup, both software and hardware to work on the GoKart.
 
 ---
-
 ## Network Configuration
 The GoKart has a dedicated local network that is used to both remotely SSH into and get internet access from. The configuration is as follows:
 - Egg Dome broadcast a network named `UCSDRobofield`.
 - Blue WiFi tower receives signal and delivers connectivity to ```UCSDRobofield```
 - Devices must connect to `UCSDRobofield` in order to remote SSH into the GoKart.
+
+<ImageGallery
+  items={[
+    {
+      src: Tower,
+      alt: 'Tower',
+      description: 'The GoKart Tower is Blue and the F1Tenth Tower is Yellow',
+    },
+    {
+      src: Dome,
+      alt: 'Dome',
+      description: 'Egg Dome for broadcasting UCSDRobofield',
+    }
+  ]}
+/>
 
 ## Secure Shell Hosting into the GoKart
 You can SSH into the GoKart either wirelessly or wired.
@@ -40,6 +60,13 @@ ssh jetson@<hostname>
 ```
 
 ### Wired
+Connect via wire and run the exact same commands, but the ip will be different. Please consult the TritonAI Drive for all credentials.
+
+<ImageCard
+  src={WiredNVIDIA}
+  alt="WiredNVIDIA"
+  description="Make sure your wire is __"
+/>
 
 ## Base Environment
 The base environment is provided by the Jetson AGX:
