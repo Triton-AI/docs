@@ -3,7 +3,8 @@ import React from 'react';
 export default function ImageCard({ src, alt, description }) {
   return (
     <div style={{
-      maxWidth: '500px',
+      width: '100%', // Full width
+      maxWidth: '100%', // Ensures the card doesn't go beyond its container
       margin: '2rem auto',
       borderRadius: '12px',
       overflow: 'hidden',
@@ -15,8 +16,9 @@ export default function ImageCard({ src, alt, description }) {
         alt={alt}
         style={{
           width: '100%',
-          height: 'auto',
+          height: 'auto', // Maintains aspect ratio
           display: 'block',
+          objectFit: 'contain', // Ensures the whole image is visible without clipping
         }}
       />
       <div style={{

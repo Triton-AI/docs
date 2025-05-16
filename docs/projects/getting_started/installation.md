@@ -1,5 +1,6 @@
 ---
 title: Software Environment & Access
+hide_title: True
 description: Documentation for optional dependencies and environment setup
 sidebar_position: 1
 ---
@@ -12,9 +13,6 @@ import GKTower from "@site/static/img/projects/getting_started/GKTower.jpg"
 import F12Tower from "@site/static/img/projects/getting_started/F1Tower.jpg"
 import GKDome from "@site/static/img/projects/getting_started/GKDome.jpg"
 import WiredNVIDIA from "@site/static/img/projects/getting_started/WiredNVIDIA.jpg"
-
-# Software Environment & Access
-This documentation outlines the necessary environment setup and optional installations, both software and hardware to work on any of our projects.
 
 ### Network Configuration
 TritonAI has a dedicated local network that is used to both remotely SSH into and get internet access from.
