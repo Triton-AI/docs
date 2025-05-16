@@ -17,7 +17,7 @@ import FrontCam from "@site/static/img/projects/gokart/launch/Front_Cam.png"
 Whenever you are working on the GoKart, please make sure to be inside a docker container by using the provided ```run.sh``` script. We use a docker container for security privileges and permissions reasons.
 :::
 
-## Full GoKart Launch
+## Full Autonomous GoKart
 To run the entire autonomy stack, please navigate to race_common and rrun these commands:
 ```bash
 source install/setup.bash
@@ -39,15 +39,39 @@ For more tmux bindings, please check [this](https://gist.github.com/mzmonsour/87
 ### Autonomous Flags
 In order to make the GoKart start, you must pass in certain flags. 
 
-## Controller Launch
+## Controller
 
-## Localization Launch
+## Localization
 
-## Perception Launch
+## Perception
 
-## Simulator Launch
+## Simulator
+To run SVL simulator, you must follow these steps:
 
-## Specific Launches 
+### OSSDC Python API
+##### Wise
+Inside of the wise folder of the OSSDCPythonAPI:
+```bash
+python3 -m http.server 9090
+```
+
+Then in the root of the OSSDCPythonAPI folder:
+```bash
+./start_sim_local.sh
+```
+
+### Autonomous
+```bash
+tmuxp load tools/tmux_configs/svl_ucsd_gokart.yaml
+```
+
+### Manual
+Inside of ```tools/tmux_configs/svl_ucsd_gokart.yaml```, comment out ```python3 tools/dummy_joy_command.py``` and rerun
+```bash
+tmuxp load tools/tmux_configs/svl_ucsd_gokart.yaml
+```
+
+## Specific Sensors
 This will go into into how to launch specific sensors.
 
 ### Camera (OAKD)
