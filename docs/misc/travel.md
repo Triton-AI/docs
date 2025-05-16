@@ -6,11 +6,13 @@ sidebar_position: 0
 ---
 
 ## Competition Preparation
-Stuff to do before preparing for competition
+Please follow these guidelines for the respective teams.
 
-### Competiton Subtopic 1
+### Electrical
 
-### Competiton Subtopic 2
+### Mechanical
+
+### Software
 
 ## Applying for Travel Funds
 This is an evolving guideline and should be updated yearly should things come up. You'll find the respective department as well as the amount that will be awarded from each department.
