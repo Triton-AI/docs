@@ -23,7 +23,7 @@ It is important that you adhere to each department rules as they will have diffe
 TBD
 
 ### Electrical and Computer Engineering
-The ECE Department has a travel fund supporting up to maximum of $500. This is for **ECE students** only but can be combined with the JSOE Travel Fund. For up to date guide, please reference [here](https://ece.ucsd.edu/undergraduate/undergraduate-student-life/travel-fund). The department will reimburse *after* the trip with proof of receipt.
+The ECE Department has a one time travel fund supporting up to maximum of $500. This is for **undergraduate ECE students** only but can be combined with the JSOE Travel Fund. For up to date guide, please reference [here](https://ece.ucsd.edu/undergraduate/undergraduate-student-life/travel-fund). The department will reimburse *after* the trip with proof of receipt.
 
 In order to be approved for ECE Travel Fund, you require:
 - Proof you are attending either via Club or Professor Acknowledgement
