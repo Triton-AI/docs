@@ -40,14 +40,23 @@ The commands to the motors are sent through VESCs which obtain their commands fr
 
 ### Power Distribution
 
-- 24V: KarTech Brake, PoE for Bullet AC
-- 12V: Jetson (Computer), RTC Green Breakout Board, Livox HAP (LIDAR), PON Atlas (GPS), Network Switch?
-- 5V: RadioMaster Pocket Receiver, 5V Relays, Lighttower, OAK-Ds with separated power
+- 24V Back: KarTech Brake, PoE for Bullet AC, Switch, Lighttower light.
+- 12V Back: Jetson (Computer), RTC Green Breakout Board, PON Atlas (GPS), Jetson PCIe USB board power
+- 5V Back: RadioMaster Pocket Receiver, 2 5V Relays, Brake Pressure Sensor, Wheel Speed Encoder
+- 12V Front: Livox HAP (Lidar), White Lights for night driving, FPV, FPV Fans
+- 5V Front: OAK-Ds with separated power (Camera)
 
 ### Communication
 
 The GoKart has a switch that connects the different sensors together. The main network connection comes from a [unifi bullet](https://store.ui.com/us/en/category/wireless-airmax-5ghz/products/b-db-ac) that is on a local network you are able to connect to.
 There used to be a LTE cellular router (Pepwave) to give internet, this was phased out as internet could be given through the bullet.
+
+- Bullet
+- Jetson
+- Lidar
+- PoE Camera
+- Atlas GPS
+- Extra
 
 ## Basic Hardware
 
