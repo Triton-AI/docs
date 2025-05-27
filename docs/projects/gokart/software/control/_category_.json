@@ -1,7 +1,7 @@
 {
-  "label": "Stack",
+  "label": "Control",
   "position": 3,
   "collapsed": true,
   "collapsible": true,
-  "className": "section-title stack"
+  "className": "section-title control"
 }

@@ -17,7 +17,7 @@ A target trajectory line refers to teh ideal path that a vehicle should follow t
 GPS waypoints provide the basic framework, and is then interpolated int o a smooth, continuous curve, often using splines or polynomials to form the target trajectory line. Controllers like Pure Pursit, Stanley, or Model Predictive Control uses the current position of the vehicle and calculate the necessary control commands to minimize the deviation between the actual path and the target trajectory. 
 
 ## Generating KMLs
-To generate TTLS, you can first generate the predefined path using [Google Earth](httpsL//earth.google.com/web/). These are saved as KML format. You need to head over to where you want the path on Earth. For reference, we'll use the JSOE EBU1 building for demo. To create a polygonal shape, press on the "Add path or polygon" icon.
+To generate TTLS, you can first generate the predefined path using [Google Earth](https://earth.google.com/web/). These are saved as KML format. You need to head over to where you want the path on Earth. For reference, we'll use the JSOE EBU1 building for demo. To create a polygonal shape, press on the "Add path or polygon" icon.
 
 <img src={Icon} />
 

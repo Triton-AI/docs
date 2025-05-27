@@ -1,18 +1,10 @@
 ---
-title: Getting Started
-description: Introduction to the GoKart Project
+title: Project Summary
+description: GoKart Summary
 sidebar_position: 1
 ---
 
-## Overview
-Goal of the project is to compete in the [Autonomous Karting Series](https://www.autonomouskartingseries.com). We use a GoKart manufactured by [TopKart](https://topkartusa.net/electric/) with modifications to drive autonomously.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Sensor Stack](#sensor-stack)
-- [Basic Electrical](#basic-electrical)
-- [Basic Hardware](#basic-hardware)
+The goal of the project is to compete in the [Autonomous Karting Series](https://www.autonomouskartingseries.com). We use a GoKart manufactured by [TopKart](https://topkartusa.net/electric/) with modifications to drive autonomously.
 
 
 ## Sensor Stack
