@@ -1,7 +1,7 @@
 {
   "label": "Controller Firmware",
-  "position": 4,
+  "position": 5,
   "collapsed": true,
   "collapsible": true,
-  "className": "section-title rtc"
+  "className": "section-title firmware"
 }

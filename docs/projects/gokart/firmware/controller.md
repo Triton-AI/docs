@@ -1,4 +1,10 @@
-# Gokart Controller Documentation
+---
+title: GoKart Controller
+sidebar_position: 1
+hide_title: true
+---
+
+## Gokart Controller Documentation
 
 ## Overview
 

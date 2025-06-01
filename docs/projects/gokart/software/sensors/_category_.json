@@ -1,7 +1,7 @@
 {
-  "label": "External",
+  "label": "Sensors",
   "position": 1,
   "collapsed": true,
   "collapsible": true,
-  "className": "section-title external"
+  "className": "section-title sensors"
 }
